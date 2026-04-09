@@ -1,4 +1,4 @@
-## Running the Notebook
+## Running the Notebook (notebook already render in md without plots though)
 ```bash
 pip install -r requirements.txt
 jupyter notebook churn_pipeline.ipynb
@@ -10,7 +10,7 @@ Run all cells top to bottom. Each stage depends on the previous.
 ## Running the Streamlit App
 ```bash
 pip install -r requirements.txt
-streamlit run app.py
+python -m streamlit run app.py
 ```
 No setup needed — the IBM Telco dataset loads automatically as demo data.
 Upload your own `.xlsx` or `.csv` file to use custom customer data.
